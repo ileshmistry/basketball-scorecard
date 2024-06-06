@@ -1,0 +1,153 @@
+@font-face {
+    font-family: cursedTimerUlil;
+    src: url(fonts/CursedTimerUlil-Aznm.ttf);
+  }
+
+body {
+    background: darkorange url(images/jason-leung-nM2WEy42Npg-unsplash-min.jpg) no-repeat center center fixed;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #1B244A;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 400px;
+    margin: 50px auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+h4 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    width: 160px;
+    min-height: 40px;
+    margin: 0 auto 10px auto;
+}
+
+.scorecardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gameSetters {
+    width: 100%;
+}
+
+.panel {
+    padding: 10px 0px 20px;
+    margin: 0 auto;
+}
+
+.cards {
+    width: 50%;
+}
+
+.score {
+    background-color: black;
+    color: #F94F6D;
+    font-family: cursedTimerUlil;
+    font-size: 4rem;
+    padding: 0;
+    width: 160px;
+    height: 100px;
+    margin: 0 auto 30px auto;
+    text-align: center;
+    line-height: 100px;
+}
+
+.btnContainer {
+    text-align: center;
+}
+
+button {
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 2px;
+    font-family: cursedTimerUlil;
+    cursor: pointer;
+    width: 50px;
+}
+
+button:hover {
+    background-color: white;
+    color: #1B244A;
+}
+
+p {
+    color: white;
+}
+
+.teamName {
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+
+label {
+    color: white;
+    width: 170px;
+    display: inline-block;
+}
+
+.winnerOutline {
+    outline: 3px solid orange;
+}  
+
+#btnShowScorecards,
+#btnEndGame {
+    width: 275px;
+    text-align: center;
+    margin: 0 auto 20px auto;
+    display: block;
+    font-size: 2rem;
+    padding: 8px;
+}
+
+.restartLink {
+    color: white;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    font-size: 0.6rem;
+}
+
+.results {
+    padding-bottom: 0;
+}
+
+#resultsText {
+    text-align: center;
+    font-size: 2rem;
+    color: #F94F6D;
+    border: 3px solid orange;
+    padding: 6px 10px;
+    margin: 0 20px;
+}
+
+.hide,
+#btnEndGame.hide {
+    display: none;
+}
